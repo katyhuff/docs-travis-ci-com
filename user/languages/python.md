@@ -91,13 +91,13 @@ if you need to run `make test` instead:
 
 and so on.
 
-In case `script` key is not provided in `.travis.yml` for Python projects, Python builder will print a message and fail the build.
+In case the `script` key is not provided in the `.travis.yml` for Python projects, the Python builder will print a message and fail the build.
 
 ## Dependency Management
 
 ### Travis CI uses pip
 
-By default Travis CI use `pip` to manage your project's dependencies. It is possible (and common) to override dependency installation command as described in the [general build configuration](/user/build-configuration/) guide.
+By default, Travis CI use `pip` to manage your project's dependencies. It is possible (and common) to override the dependency installation command as described in the [general build configuration](/user/build-configuration/) guide.
 
 The exact default command is
 
