@@ -10,7 +10,7 @@ This guide covers build environment and configuration topics specific to Python 
 
 ## Choosing Python versions to test against
 
-Travis CI support Python versions 2.6, 2.7, 3.2, 3.3 and 3.4.
+Travis CI supports Python versions 2.6, 2.7, 3.2, 3.3 and 3.4.
 
     language: python
     python:
