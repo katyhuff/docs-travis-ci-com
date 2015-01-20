@@ -116,13 +116,13 @@ ease running tests:
 
 ### Testing Against Multiple Versions of Dependencies (e.g. Django or Flask)
 
-If you need to test against multiple versions of, say, Django, you can instruct Travis CI to do multiple runs with different sets or values of environment variables. Use *env* key in your .travis.yml file, for example:
+If you need to test against multiple versions of, say, Django, you can instruct Travis CI to do multiple runs with different sets or values of environment variables. Use the *env* key in your .travis.yml file, for example:
 
     env:
       - DJANGO_VERSION=1.2.7
       - DJANGO_VERSION=1.3.1
 
-and then use ENV variable values in your dependencies installation scripts, test cases or test script parameter values. Here we use DB variable value to instruct pip to install an exact version:
+and then use ENV variable values in your dependencies installation scripts, test cases or test script parameter values. Here, we use DB variable value to instruct pip to install an exact version:
 
     install:
       - pip install -q Django==$DJANGO_VERSION
